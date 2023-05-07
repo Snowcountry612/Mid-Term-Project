@@ -1,0 +1,140 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#intro {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#intro h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#intro p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#skills {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contact {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contact li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  #main {
+    padding: 10px;
+  }
+  #intro h1 {
+    font-size: 30px;
+  }
+  #intro p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #skills h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #skills li {
+    font-size: 14px;
+    padding: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  #contact h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #contact li {
+    font-size: 14px;
+    padding: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
